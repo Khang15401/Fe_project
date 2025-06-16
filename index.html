@@ -64,6 +64,7 @@
             <div class="container-name-img">
               <p class="name-band">Name</p>
               <img
+                alt="member"
                 src="./assest/img/content/avatar_member.jpg"
                 class="img-band"
               />
@@ -116,7 +117,7 @@
               <div class="wrap-detail-tour">
                 <img
                   src="./assest/img/content/newyork.jpg"
-                  alt=""
+                  alt="New York"
                   class="img-tour"
                 />
                 <div class="wrap-content-tour">
@@ -131,7 +132,7 @@
               <div class="wrap-detail-tour">
                 <img
                   src="./assest/img/content/paris.jpg"
-                  alt=""
+                  alt="Paris"
                   class="img-tour"
                 />
                 <div class="wrap-content-tour">
@@ -146,7 +147,7 @@
               <div class="wrap-detail-tour">
                 <img
                   src="./assest/img/content/sanfran.jpg"
-                  alt=""
+                  alt="San Francisco"
                   class="img-tour"
                 />
                 <div class="wrap-content-tour">
@@ -176,16 +177,20 @@
             <div class="form-info">
               <form action="" class="info-contact">
                 <div class="wrap-input">
-                  <input
-                    type="text"
-                    class="input-info"
-                    placeholder="Name"
-                  />
+                  <input type="text" class="input-info" placeholder="Name" />
                 </div>
                 <div class="wrap-input">
-                  <input type="text" class="input-info css-second-input" placeholder="Email" />
+                  <input
+                    type="text"
+                    class="input-info css-second-input"
+                    placeholder="Email"
+                  />
                 </div>
-                <input type="text" class="input-info last-child" placeholder="Message" />
+                <input
+                  type="text"
+                  class="input-info last-child"
+                  placeholder="Message"
+                />
               </form>
               <button class="send-btn">Send</button>
             </div>
@@ -194,5 +199,43 @@
       </div>
       <div id="footer"></div>
     </div>
+
+    <div class="modal">
+      <div class="container-modal">
+        <div class="btn-close">
+          <i class="ti-close"></i>
+        </div>
+        <header class="modal-header">
+          <i class="ti-bag"></i>
+          Tickets
+        </header>
+
+        <div class="modal-body">
+          <label for="" class="modal-label">
+            <i class="ti-shopping-cart-full"></i>
+            Tickets, $15 per person
+          </label>
+          <input type="text" class="modal-input" placeholder="How many?" />
+
+          <label for="" class="modal-label">
+            <i class="ti-user"></i>
+            Send To
+          </label>
+          <input type="email" class="modal-input" placeholder="Enter email" />
+          <button id="buy-tickets">
+            Pay
+            <i class="ti-check"></i>
+          </button>
+          <button id="close-modal">
+            Close
+            <i class="ti-close"></i>
+          </button>
+          <footer class="modal-help">
+            <p>Need <a href="#">help?</a></p>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
