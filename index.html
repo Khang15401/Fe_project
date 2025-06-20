@@ -61,7 +61,7 @@
             ea commodo consequat.
           </p>
           <div class="wrap-content">
-            <div class="container-name-img">
+            <div class=" col-third col text-center">
               <p class="name-band">Name</p>
               <img
                 alt="member"
@@ -70,7 +70,7 @@
               />
             </div>
 
-            <div class="container-name-img">
+            <div class="col-third col text-center">
               <p class="name-band">Name</p>
               <img
                 src="./assest/img/content/avatar_member.jpg"
@@ -78,7 +78,7 @@
               />
             </div>
 
-            <div class="container-name-img">
+            <div class="col-third col text-center">
               <p class="name-band">Name</p>
               <img
                 src="./assest/img/content/avatar_member.jpg"
@@ -113,8 +113,8 @@
                 <span class="property-tour-month last-child-css">3</span>
               </li>
             </ul>
-            <div class="container-detail-tour">
-              <div class="wrap-detail-tour">
+            <div class="row container-detail-tour">
+              <div class="col col-third">
                 <img
                   src="./assest/img/content/newyork.jpg"
                   alt="New York"
@@ -129,7 +129,7 @@
                   <button class="btn-buy">Buy Tickets</button>
                 </div>
               </div>
-              <div class="wrap-detail-tour">
+              <div class="col col-third">
                 <img
                   src="./assest/img/content/paris.jpg"
                   alt="Paris"
@@ -141,10 +141,10 @@
                   <p class="text-tour">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button class="btn-buy">Buy Tickets</button>
+                  <button class="btn-buy 2">Buy Tickets</button>
                 </div>
               </div>
-              <div class="wrap-detail-tour">
+              <div class="col col-third">
                 <img
                   src="./assest/img/content/sanfran.jpg"
                   alt="San Francisco"
@@ -156,7 +156,7 @@
                   <p class="text-tour">
                     Praesent tincidunt sed tellus ut rutrum sed vitae justo.
                   </p>
-                  <button class="btn-buy">Buy Tickets</button>
+                  <button class="btn-buy 3">Buy Tickets</button>
                 </div>
               </div>
             </div>
@@ -211,17 +211,17 @@
         </header>
 
         <div class="modal-body">
-          <label for="" class="modal-label">
+          <label for="ticket-number" class="modal-label">
             <i class="ti-shopping-cart-full"></i>
             Tickets, $15 per person
           </label>
-          <input type="text" class="modal-input" placeholder="How many?" />
+          <input id="ticket-number" type="text" class="modal-input" placeholder="How many?" />
 
-          <label for="" class="modal-label">
+          <label for="sent-to-email" class="modal-label">
             <i class="ti-user"></i>
             Send To
           </label>
-          <input type="email" class="modal-input" placeholder="Enter email" />
+          <input id="sent-to-email" type="email" class="modal-input" placeholder="Enter email" />
           <button id="buy-tickets">
             Pay
             <i class="ti-check"></i>
